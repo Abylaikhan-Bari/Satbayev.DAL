@@ -8,9 +8,13 @@ namespace Satbayev.DAL
 {
     public class Account
     {
+
         public int Id { get; set; }
         public DateTime CreateDate { get; set; }
         public int ClientId { get; set; }
+
+        public Client Client { get; set; }
+
         public string IBAN { get; set; }
         public DateTime ExpariDate { get; set; }
         public int Currency { get; set; }

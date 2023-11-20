@@ -44,6 +44,8 @@ namespace Satbayev.DAL
         public string IIn { get; set; }
 
         public Adress Adress { get; set; }
+
+        public List<Account> Accounts { get; set; }
     }
 
 
